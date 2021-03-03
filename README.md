@@ -55,6 +55,6 @@ I was not sure how to generate a random number from 1-6 since math.Random return
    For example I would center the start button and make it larger. Instead having a alert to let the user know they lost the game I would work on creating another page
    that the user will be directed to when they lose the game. On that page the user will have the option
    to click "Play Again" which will direct them back to the game page where they can start the game again. An addition I would also
-   add a feature that prevents the user from clicking on the buttons while the pattern is being played. The buttons should
-   only be enabled from user clicking once the pattern has been completed.]
+   add a feature that prevents the user from clicking on the buttons while the pattern is being played. I noticed that there were many issues when the user started pressing the buttons while the play sequences were being executed. The buttons should
+   only be enabled for the user once the pattern has been completed. Since I had some extra time I was able to quickly implement this extra feature.]
 
