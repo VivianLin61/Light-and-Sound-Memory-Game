@@ -16,7 +16,7 @@ Name: [Vivian Lin]
 
 <img src="https://i.imgur.com/u4vZ2wt.gif" width=500>
 
-### Timer Over GIF
+### Start/Stop and Timer Over GIF
 
 
 
