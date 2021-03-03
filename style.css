@@ -78,3 +78,7 @@ button {
   font-family: verdana, arial, sans-serif;
   font-size: 30px;
 }
+
+.disable-btn {
+  pointer-events: none;
+}
