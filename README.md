@@ -21,6 +21,7 @@ Optional Features Completed
 * [x] Speed it up
 * [x] Use a random secret pattern
 * [x] Give the player 3 strikes
+* [ ] Spruce up your buttons
 * [x] Add a ticking clock
 
 
