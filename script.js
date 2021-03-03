@@ -17,7 +17,19 @@ var clueHoldTime = 1000
 var mistakes = 0
 var guessTimer = 3000 //3 seconds
 var timer
+var context
+var o
+var g
 function startGame() {
+  //Page Initialization
+  // Init Sound Synthesizer
+  context = new AudioContext()
+  o = context.createOscillator()
+  g = context.createGain()
+  g.connect(context.destination)
+  g.gain.setValueAtTime(0, context.currentTime)
+  o.connect(g)
+  o.start(0)
   //initialize game variables
   progress = 0
   gamePlaying = true
@@ -31,7 +43,6 @@ function startGame() {
   for (let i = 0; i < pattern.length; i++) {
     pattern[i] = Math.floor(Math.random() * 6) + 1 //generate random number from 1 to 6
   }
-  console.log(pattern)
   playClueSequence()
 }
 
@@ -66,7 +77,6 @@ function playClueSequence() {
   //disable all buttons
   let buttons = document.getElementsByTagName('button')
   for (let i = 0; i < buttons.length; i++) {
-    console.log(buttons[i])
     buttons[i].classList.add('disable-btn')
   }
 
@@ -87,7 +97,6 @@ function timerFunction() {
   //play sequence complete (enable all buttons)
   let buttons = document.getElementsByTagName('button')
   for (let i = 0; i < buttons.length; i++) {
-    console.log(buttons[i])
     buttons[i].classList.remove('disable-btn')
   }
   timer = setInterval(function () {
@@ -198,13 +207,3 @@ function stopTone() {
   g.gain.setTargetAtTime(0, context.currentTime + 0.05, 0.025)
   tonePlaying = false
 }
-
-//Page Initialization
-// Init Sound Synthesizer
-var context = new AudioContext()
-var o = context.createOscillator()
-var g = context.createGain()
-g.connect(context.destination)
-g.gain.setValueAtTime(0, context.currentTime)
-o.connect(g)
-o.start(0)
