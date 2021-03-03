@@ -16,6 +16,9 @@ Name: [Vivian Lin]
 
 <img src="https://i.imgur.com/u4vZ2wt.gif" width=500>
 
+### Timer Over GIF
+
+
 
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
