@@ -17,11 +17,11 @@ Name: [Vivian Lin]
 <img src="https://i.imgur.com/u4vZ2wt.gif" width=500>
 
 Optional Features Completed
-[x] More than 4 game buttons
-[x] Speed it up
-[x] Use a random secret pattern
-[x] Give the player 3 strikes
-[x] Add a ticking clock
+* [x] More than 4 game buttons
+* [x] Speed it up
+* [x] Use a random secret pattern
+* [x] Give the player 3 strikes
+* [x] Add a ticking clock
 
 
 
