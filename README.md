@@ -8,11 +8,11 @@ Name: [Vivian Lin]
 
 ### PART 2
 
-<img src="" width=500>
+<img src="http://g.recordit.co/YTOUnqxCjB.gif" width=500>
 
-https://media.giphy.com/media/Xf1HqBNqhM6MyavPgL/giphy.gif
+
 ### PART 3
-<img src="" width=500>
+<img src="http://g.recordit.co/so8jo5KafO.gif" width=500>
 
 ### Lose Game GIF 
 
