@@ -3,14 +3,16 @@ Name: [Vivian Lin]
 
 ### Win Game GIF 
 ### PART 1
-<img src="https://media.giphy.com/media/RvO2aIyAeHIQ84fEOl/giphy.gif" width=500>
+<img src="http://g.recordit.co/K2JLuclOeG.gif" width=500>
+
 
 ### PART 2
 
-<img src="https://media.giphy.com/media/QoYcn29SGp7HkIzNTv/giphy.gif" width=500>
+<img src="http://g.recordit.co/YTOUnqxCjB.gif" width=500>
+
 
 ### PART 3
-<img src="https://media.giphy.com/media/ICKKPARyorHb1z6vtI/giphy.gif" width=500>
+<img src="http://g.recordit.co/so8jo5KafO.gif" width=500>
 
 ### Lose Game GIF 
 
