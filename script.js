@@ -40,9 +40,9 @@ function startGame() {
   document.getElementById('stopBtn').classList.remove('hidden')
   document.getElementById('timeleft').innerHTML = ''
   //generate pattern
-  for (let i = 0; i < pattern.length; i++) {
-    pattern[i] = Math.floor(Math.random() * 6) + 1 //generate random number from 1 to 6
-  }
+  // for (let i = 0; i < pattern.length; i++) {
+  //   pattern[i] = Math.floor(Math.random() * 6) + 1 //generate random number from 1 to 6
+  // }
   playClueSequence()
 }
 
@@ -91,7 +91,7 @@ function playClueSequence() {
   }
   //play sequence complete
   setTimeout(timerFunction, delay) //wait for the pattern to finish playing
-  clueHoldTime -= 5 //Speed it up
+  clueHoldTime -= 75 //Speed it up
 }
 function timerFunction() {
   //play sequence complete (enable all buttons)
